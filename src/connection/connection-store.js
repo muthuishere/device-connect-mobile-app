@@ -52,22 +52,7 @@ const setProgress =(state,action)=>{
 
 })
 export default ConnectionReducer;
-//
-//
-// export default (state = initialState, action) => {
-//     switch (action.type) {
-//         case TOGGLE: {
-//             return {
-//                 ...state,
-//                 toggle: !state.toggle
-//             };
-//         }
-//
-//         default: {
-//             return { ...state };
-//         }
-//     }
-// };
+
 
 export const startWebSocketServer = (dispatch)  => {
     dispatch({ type: SERVER_IN_PROGRESS });
